@@ -7,5 +7,5 @@ hosterNetPython.egg-info/dependency_links.txt
 hosterNetPython.egg-info/requires.txt
 hosterNetPython.egg-info/top_level.txt
 hosterNetPython/socketServer/__init__.py
-hosterNetPython/socketServer/chat.py
-hosterNetPython/socketServer/chatC.py
+hosterNetPython/socketServer/chatClient.py
+hosterNetPython/socketServer/chatServer.py

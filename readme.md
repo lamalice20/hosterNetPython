@@ -1,19 +1,18 @@
-# Qu'est ce que hosterNetPython ?
+# What is hosterNetPython?
 
-#### hosterNetPython est un package pour héberger toutes les fonctions du net dans python, que ce sois pour les db ou pour les socketDict. Les fonctions de socket, http.server, socketserver, vidstream seront dans les modules
+#### hosterNetPython is a package to host all net functions in python, whether for db or socketDict. Socket, http.server, socketserver, vidstream functions will be in modules
 
-## Pourquoi utiliser hosterNetPython ?
+## Why use hosterNetPython?
 
-#### Utiliser hosterNetPython permet de créer ou d'éxécuter des scripts préfait mais très important comme :
-    les serveurs http
-    les serveurs avec une base de donnée pour avec fonctions de connexions
-    les serveurs de chat
+#### Using hosterNetPython allows you to create or execute pre-made but very important scripts like:
+    http servers
+    servers with a database for connection functions
+    chat servers
 
-## Les fonctions principales
-### 1. socketChat (La fonction serveur)
-#### SocketChat permet d'héberger des chats avec la librairie socket 
-#### Cette fonction peut vous servir à créer des chats en 3 ligne de code
-
+## Main functions
+### 1. socketChat (The server function)
+#### SocketChat allows you to host chats with the socket library 
+#### This function can be used to create chats in 3 lines of code
 
 ```bash
     from hosterNetPython.socketServer.chat import socketChat

@@ -18,12 +18,12 @@ class httpServer:
 
     def startServerHTTP(self):
         menu = f"""
-        Le serveur est en ligne 
+        The server is online 
 
-        info :
-            host : {self.host}
-            port : {self.port}
-            path : {self.path}
+        info:
+            host: {self.host}
+            port: {self.port}
+            path: {self.path}
 
         """
 

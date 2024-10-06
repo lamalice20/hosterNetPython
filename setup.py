@@ -5,7 +5,7 @@ with open("readme.md", "r") as file:
 
 setup(
     name="hosterNetPython",
-    version="0.1.0",
+    version="0.1.1",
     description="All in one NetPythonHoster",
     package={"": ""},
     packages=find_packages(),

@@ -1,2 +1,3 @@
 from hosterNetPython.httpServer import httpServer
-from hosterNetPython.socketServer.chat import socketChat
+from hosterNetPython.socketServer.chatServer import socketChatServer
+from hosterNetPython.socketServer.chatClient import socketChatClient

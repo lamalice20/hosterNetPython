@@ -1,12 +1,12 @@
 import socket
 
 
-class socketChat:
+class socketChatServer:
     def __init__(self, host: str, port: int):
         self.adress = (host, port)
         self.server = socket.socket(socket.AF_INET, socket.SOCK_STEAM)
 
-    def startChat(self):
+    def startChatServer(self):
         self.server.bind(self.adress)
         
         while True:
